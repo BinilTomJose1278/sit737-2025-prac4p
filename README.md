@@ -12,28 +12,38 @@ API Endpoints
 Each endpoint accepts two numbers via query parameters: num1 and num2.
 
 ➕ Addition
+
 GET /add?num1=10&num2=5
+
 ➖ Subtraction
+
 GET /subtract?num1=10&num2=5
+
 ✖️ Multiplication
+
 GET /multiply?num1=10&num2=5
+
 ➗ Division
+
 GET /divide?num1=10&num2=5
+
 📝 Logging with Winston
-Winston is used to log:
 
-Request method and URL
+1. Winston is used to log:
 
-Request headers and IP address
+   a)Request method and URL
 
-Response status and body
+   b)Request headers and IP address
 
-Input validation errors
+   c) Response status and body
+
+   d) Input validation errors
 
 Logs are saved to:
 
-logs/error.log — Error logs only
 
-logs/combined.log — All logs
+a) logs/error.log — Error logs only
+
+b) logs/combined.log — All logs
 
 
